@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="db"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/hhafeez/.m2/repository/org/hibernate/com.springsource.org.hibernate/3.3.2.GA/com.springsource.org.hibernate-3.3.2.GA.jar" sourcepath="C:/Users/hhafeez/.m2/repository/org/hibernate/com.springsource.org.hibernate/3.3.2.GA/com.springsource.org.hibernate-3.3.2.GA-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.hibernate"/>
-			<attribute name="maven.artifactId" value="com.springsource.org.hibernate"/>
-			<attribute name="maven.version" value="3.3.2.GA"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hhafeez/.m2/repository/org/dom4j/com.springsource.org.dom4j/1.6.1/com.springsource.org.dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/hhafeez/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/hhafeez/.m2/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/hhafeez/.m2/repository/org/apache/commons/com.springsource.org.apache.commons.collections/3.2.1/com.springsource.org.apache.commons.collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.org.apache.commons.collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.org.dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.org.hibernate-3.3.2.GA.jar"/>
+	<classpathentry kind="lib" path="lib/javaee-api-6.0.jar"/>
 	<classpathentry kind="lib" path="lib/javassist-3.12.0.GA.jar"/>
-	<classpathentry kind="lib" path="C:/Users/hhafeez/.m2/repository/javax/javaee-api/6.0/javaee-api-6.0.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.6.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.7.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

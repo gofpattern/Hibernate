@@ -1,0 +1,4 @@
+create database student;
+use student;
+create table ADDRESS (ADDRESS_ID INT NOT NULL,ADDRESS_STREET varchar(250),ADDRESS_CITY varchar(50),ADDRESS_STATE varchar(50),ADDRESS_ZIPCODE varchar(10),PRIMARY KEY (ADDRESS_ID));
+create table student (STUDENT_ID INT NOT NULL,STUDENT_NAME varchar(250),STUDENT_ADDRESS varchar(250),PRIMARY KEY (STUDENT_ID));
